@@ -27,6 +27,11 @@
       <name>Test Project Site</name>
       <url>file:///tmp/maven-project-site</url>
     </site>
+    <snapshot>
+      <id>nexus-snapshots</id>
+      <url>http://13.235.45.241:8081/repository/mavensnapex/</url>
+    </snapshot>
+           
   </distributionManagement>
 
   <build>
